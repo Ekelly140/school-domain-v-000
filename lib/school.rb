@@ -21,16 +21,11 @@ class School
   end 
   
   def sort 
-<<<<<<< HEAD
-    @roster.map do |grade| 
-      grade.sort
-    end 
-=======
+
     @roster.map do |grade, value| 
       @roster[grade] = value.sort
       end
       @roster
->>>>>>> 27ee26f1aaa9da2b30885f44d4a805978b42de0e
   end 
     
 end 
